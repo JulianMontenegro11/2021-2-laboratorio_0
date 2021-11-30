@@ -113,6 +113,7 @@ int main()
           int total;
           if(i==1){
               total=decimal*decimal;
+
           }
           else{
               total=total*decimal;
@@ -120,6 +121,11 @@ int main()
 
           if(i==decimal){
               suma=suma+total;
+          }
+
+          if(i==decimal-1){
+              suma=suma+total;
+              break;
           }
       }
 
